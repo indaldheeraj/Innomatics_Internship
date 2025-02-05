@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuppu Cofee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="styles.css">
+    <link rel="ICON" href="./source/icon.png">
+
+    
+    <style>
+        body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+}
+        .container{
+           position:sticky;
+           
+            top: 0; 
+    left: 0; 
+    width: 100%; 
+    margin: 0; 
+    padding: 10px; 
+    background-color: brown; 
+    display: flex; 
+    justify-content: center;
+    z-index: 1000;
+    
+        }
+        span{
+            display: flex;
+            justify-content:left;
+            color: rgb(230, 221, 221);
+            padding: 10px;
+            margin: 10px;
+            display: flex; 
+            right: 0;
+          
+        }
+
+        .container span {
+            justify-content:left; 
+    margin-left: 20px; 
+    
+}
+        #welcome line{
+            
+            color: white;
+            justify-content: last baseline;
+        }
+        #tag_line{
+            color: white;
+          
+           
+
+        }
+        #list{
+            text-align: center;
+            color: brown;
+        }
+        #about{
+            text-align: center;
+            color: brown;
+        }
+
+        #contact{
+            text-align: center;
+            color: brown;
+        }
+        #button{
+            text-align: center;
+            color: brown;
+        }
+        #button:hover{
+            background-color: rgb(198, 28, 76);
+            color: white;
+        }
+
+        .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 8%; 
+}
+
+
+.image-item {
+    text-align: center; 
+}
+
+.image-item img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    transition: opacity 0.3s; 
+}
+
+.image-item p {
+    margin-top: 5px; 
+    color: brown; 
+}
+
+.image-item img:hover {
+    opacity: 0.7; 
+}
+        #footer{
+            text-align: center;
+            color: brown;
+        }
+
+        .registration{
+    background-color: brown;
+    color: white;
+    padding: 10px ;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+}
+
+
+
+.registration:hover{
+    opacity: 0.1;
+}
+       
+
+    </style>
+</head>
+<body>
+
+    
+    <div class="container">
+        <p id ="tag_line">Your coffee. Your moment. Your haven.</p>
+        
+        
+        <h1 id ="welcome line">Cuppu Coffee..!</h1>
+        
+        <a href="#about"><span>About</span></a> <a href="#list"><span>Menu</span></a>  <a href="#contact"><span>Contact</span></a>
+        
+
+        
+    </div>
+
+    
+
+    <section>
+        <h1 id="list">Menu</h1>
+        <div class="image-container">
+            <div class="image-item">
+                <img src="./source/flat-white-coffee.webp" alt="Flat White">
+                <p>Flat White</p>
+                <p>Price: Rs 100.00</p>
+            </div>
+            <div class="image-item">
+                <img src="./source/HD-wallpaper-love-coffee-beans-cup-heart.jpg" alt="coffee with love">
+                <p>coffee with love</p>
+                <p>Price: Rs 150.00</p>
+            </div>
+            <div class="image-item">
+                <img src="./source/black coffee.jpg" alt="Black Coffee">
+                <p>Black Coffee</p>
+                <p>Price: Rs 187.00</p>
+            </div>
+
+            <div class="image-item">
+                <img src="https://www.cookwithmanali.com/wp-content/uploads/2022/04/Cold-Coffee-500x500.jpg" alt="Cold Coffee Recepie">
+               <p>Cold Coffee Recepie</p>
+                <p>Price: Rs 199.00</p>
+        </div>
+
+        <div class="image-item">
+            <img src="./source/roasted-coffee-beans.jpg" alt="Special Coffee">
+            <p>Cold Coffee Recepie</p>
+            <p>Price: Rs 209.00</p>
+        
+    </section>
+
+<hr>
+
+<section id ="about">
+    <h1>About</h1>
+    <p><b>Get the best coffee in town</b></p>
+    <p>Step into Cup COfee, a cozy and inviting coffee shop designed for true coffee lovers. From the moment you walk in, the rich aroma of freshly brewed coffee welcomes you into a space that blends warmth, comfort, and creativity. Our carefully curated selection of handcrafted coffees, specialty blends, and artisanal teas ensures that every cup is a delightful experience.</p>
+    <p>At CUP cofee, we believe coffee is more than just a drink—it’s a ritual, a moment of peace, and a spark for conversations. Whether you’re here to kick-start your day with a strong espresso, relax with a creamy latte, or explore our signature cold brews, we promise a cup crafted with passion. Pair it with our freshly baked pastries and gourmet snacks for the perfect café experience.</p>
+    
+    <hr>
+</section>
+
+<section id="contact">
+
+    <h1 id ="contact">Contact</h1>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Name" id="name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Email" id="email" required>
+        <br><br>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message"  placeholder="Message" cols="20" rows="5" required></textarea>
+        <br><br>
+           
+
+        <button  class="registration"   type="submit">contact</button>
+
+
+    </form>
+   
+   
+   
+
+      
+ </section>
+    
+    
+    
+
+
+
+    <hr>
+
+
+   
+
+</section>
+
+<section id ="footer">
+    <p>&copy;Indla Dheeraj</p>
+    <p>&copy; 2025 cuppu coffee. All rights reserved.</p>
+    <hr>
+</section>
+
+
+
+
+
+
+
+  
+
+</body>
+</html>
