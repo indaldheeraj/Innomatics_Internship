@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+
+
+
+.heading1{
+    position: sticky;
+    margin: 0;
+
+    background-color: red;
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+    height: 30px;
+
+}
+
+.logo{
+    background-color: grey;
+}
+#span{
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+}
+.nav{
+   display: flex;
+    justify-content: flex-end;
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+    
+    
+}
+
+.ecchalu{
+    background-color:white;
+    color: red;
+    font-size: 20px;
+    height: 200px;
+    text-align: center;
+   
+}
+.courses{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+
+.course-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+.course{
+    border: 1px solid #10df39;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.testimonials{
+    background-color:lightgoldenrodyellow;
+    padding: 40px 20px;
+    text-align: center;
+}
+.testimonial{
+    margin: 20px 0;
+}
+.testimonial img{
+    width: 300px;
+    height:250px;
+    border-radius: 50%;
+}
+
+.gurinchi{
+    background-color:cadetblue;
+    color: white;
+    font-size: 20px;
+    height: 300px;
+    text-align: center;
+}
+
+#internship{
+    background-color:aliceblue;
+    color: blue;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.footer{
+    background-color:grey;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    
+   
+}
