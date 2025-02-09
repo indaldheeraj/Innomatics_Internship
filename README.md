@@ -6,3 +6,7 @@ https://cuppucoffeedheeru.netlify.app/ ...."website for coffee shop (landing pag
 
 
 https://jsprblmsbydheeru.netlify.app/..... JS Logic Building
+
+
+
+https://innlabclonedheeru.netlify.app/ .....Innomatics lab website clone
